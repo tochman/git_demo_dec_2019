@@ -8,10 +8,13 @@
 </head>
 <body>
   <h1>Hello World</h1>
+  <div id="display"></div>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       console.log('hello')
+      let displayElement = document.getElementById('display')
+      displayElement.innerHTML = "Tjena!"
     })
   </script>
 </body>
