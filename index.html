@@ -7,14 +7,14 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Hello World</h1>
   <div id="display"></div>
+  <h2>Another line</h2>
 
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       console.log('hello')
       let displayElement = document.getElementById('display')
-      displayElement.innerHTML = "Tjena!"
+      displayElement.innerHTML = "<h1>Hello World</h1>"
     })
   </script>
 </body>
